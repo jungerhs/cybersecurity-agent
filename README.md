@@ -80,7 +80,6 @@ ReAct（Reasoning + Acting）模式特别适合网络安全问答场景：
 pip install -r requirements.txt
 ```
 
-如果遇到导入错误，请查看 [LANGCHAIN_INSTALL.md](LANGCHAIN_INSTALL.md) 获取详细的安装和迁移指南。
 
 ### 2. 安装前端依赖
 
@@ -234,9 +233,6 @@ Agent会使用计算工具进行数值计算。
 - 功能：网络搜索最新信息
 - 适用场景：最新漏洞、安全新闻、实时数据
 
-#### CalculatorTool
-- 功能：数学计算
-- 适用场景：风险评分、概率计算、数值分析
 
 ### 4. Web界面
 
