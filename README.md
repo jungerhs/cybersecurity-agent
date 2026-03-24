@@ -28,17 +28,6 @@
 - 与LangChain深度集成
 - 支持元数据过滤
 
-### LangChain 1.0+ Agent说明
-在LangChain 1.0+版本中，推荐使用以下最佳实践：
-- **@tool装饰器**：使用`@tool`装饰器定义工具，代码更简洁
-- **直接调用**：直接使用`agent.invoke()`，不需要AgentExecutor
-- **更简单的接口**：`create_agent`提供了更简洁的API
-- **更好的性能**：优化的执行流程，减少包装层
-- **生产就绪**：内置错误处理和日志记录
-- **类型安全**：支持类型注解和自动验证
-
-**详细说明：** 请查看 [TOOL_REFACTOR.md](TOOL_REFACTOR.md) 了解@tool装饰器的使用方法。
-
 ### ReAct Agent适用性
 ReAct（Reasoning + Acting）模式特别适合网络安全问答场景：
 - **推理能力**：能够分析问题并选择合适的工具
