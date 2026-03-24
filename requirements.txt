@@ -1,0 +1,14 @@
+langchain>=1.0.0
+langchain-core>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.10
+chromadb>=0.4.0
+openai>=1.0.0
+pypdf>=3.17.0
+unstructured>=0.10.0
+python-dotenv>=1.0.0
+tiktoken>=0.5.0
+duckduckgo-search>=3.9.0
+flask>=3.0.0
+flask-cors>=4.0.0
+pydantic>=2.0.0
